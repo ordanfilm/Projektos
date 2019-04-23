@@ -1,0 +1,259 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background-color: #1A1B1F;
+}
+
+body {
+    line-height:6;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*MY CODE*/
+@font-face {
+  src: url(fonts/Montserrat-Regular);
+  font-family: Montserrat;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes grow-left {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.logo {
+  object-position: 50% 50%;
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+
+.navlogo {
+  position: absolute;
+  background: #0D0D0D;
+  width: 75px;
+  margin-top: 22px;
+  float: right;
+  margin-left: 400px;
+}
+
+.category {
+  text-align: center;
+  width: 24%;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.categorybottom {
+  text-align: center;
+  width: 37%;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.categorybutton {
+    border: none;
+    text-align: center;
+    width: 24%;
+    vertical-align: middle;
+    padding: 12px;
+    margin: 15px;
+    position: absolute;
+    top: 594px;
+    background-color: #0D0D0D;
+    color: #FFF;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.categorybutton-bottom {
+  border: none;
+  text-align: center;
+  width: 37%;
+  vertical-align: middle;
+  padding: 12px;
+  margin: 15px;
+  position: absolute;
+  top: 817px;
+  background-color: #0D0D0D;
+  color: #FFF;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+color: #0BE668;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-family: Montserrat;
+  color: #FFF;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top: 60px;
+}
+
+.nav ul {
+  list-style: none;
+  background: #0D0D0D;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 -4px;
+}
+
+.under {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  width: 150px;
+  display: block;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:Montserrat;
+  background-color: #0D0D0D;
+}
+
+.nav a:hover {
+  color: #00E668;
+  transition: 0.4s;
+}
+
+.boldtext {
+  font-family: Montserrat;
+  color: #FFF;
+  text-align: center;
+  font-size: 20 px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.15em;
+  margin-top: 18px;
+}
+
+.greentext {
+       color: #00E668;
